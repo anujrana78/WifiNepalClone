@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+.container-fluid{
+    width: 80%;
+    margin: auto;
+    
+}
+.navbar{
+    background-color: #B02A35;
+}
+.carousel-indicators ol {
+    background-color: rgb(243, 235, 235);
+    background-color: rgba(237, 237, 237, 0.25);
+  }
+  
+
+.navlist{
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+.navlist:hover {
+    color:rgb(193, 174, 174);
+}
+
+.bg{
+    background-color: #B02A35;
+}
+.slier-image{
+  
+  width: 50%;
+  margin: auto;
+}
+#carousel{
+    background-color: #B02A35;
+   
+}
+
+.cta{position: relative;
+    border-radius: 10px;
+    border:2px solid white;
+    background-image: linear-gradient(to right,yellow, red);
+    background-color: white;
+    color: black;
+    bottom: 10px;
+}
+#services{
+    background-color: white;
+    margin: 150px auto ;
+    width: 70%;
+    
+}
+
+.services-icon{
+    width: 50px;
+}
+
+h2{
+    margin-top: 10%;
+    color: black;
+}
+
+.services-desc{
+    color: black;
+   margin: auto;
+   width: 90%;
+   text-align: justify;
+}
+.card{
+    border-radius: 20px;
+    
+}
+.card-title{
+    background-color: #B02A35;
+    
+}
+#plans{
+    margin: 5% 10%;
+}
+
+hr{
+    margin: 5% auto;
+    width:5%;
+    border: 5px solid;
+    border-radius : 10px;
+    color: red;
+}
+
+#plans, p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.faq-left{
+    text-align: left;
+}
+
+#faq{
+    margin:10%;
+}
+
+.faq-block{
+    margin-bottom: 60px;
+}
+
+#footer{
+    background-color: #B02A35;
+    padding: 100px;
+    
+}
+
+.footer-section{
+    margin: auto;
+    color: white;
+}
+
+.copy{
+    margin-top: 5%;
+    color: white;
+}
+
+@media (max-width: 800px){
+    .services-box{
+        margin: 20px auto;
+    }
+
+    .cta{
+        position:relative;
+    border-radius: 10px;
+    border:2px solid white;
+    background-image: linear-gradient(to right,rgb(222, 224, 105), red);
+    background-color: white;
+    color: black;
+    top:70px;
+    }
+
+    .pricing-column{
+        margin: 10px auto;
+    }
+    .footer-box{
+        margin: 20px auto;
+    }
+}
